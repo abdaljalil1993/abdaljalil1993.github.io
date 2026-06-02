@@ -38,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
- <style>
+  <style>
     *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
     :root{
       --black:#07080a;--deep:#0c0e13;--surface:#10131a;--card:#141820;
@@ -59,11 +59,9 @@
     .nav-links{display:flex;gap:2.5rem;list-style:none}
     .nav-links a{color:var(--muted);text-decoration:none;font-size:.78rem;font-weight:500;letter-spacing:.13em;text-transform:uppercase;transition:color .3s;position:relative}
     .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:width .3s ease}
-    .nav-links a:hover {color:var(--gold-l)}
-    .nav-links a:hover::after{width:100%}
+    .nav-links a:hover{color:var(--gold-l)}.nav-links a:hover::after{width:100%}
     .nav-cta{border:1px solid var(--gold)!important;color:var(--gold)!important;padding:.45rem 1.3rem;border-radius:2px;transition:background .3s,color .3s!important}
-    .nav-cta:hover{background:var(--gold)!important;color:var(--black)!important}
-    .nav-cta::after{display:none!important}
+    .nav-cta:hover{background:var(--gold)!important;color:var(--black)!important}.nav-cta::after{display:none!important}
     /* SOCIAL FLOAT */
     .social-float{position:fixed;left:1.4rem;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:.9rem;z-index:50;opacity:0;animation:fadeIn 1s ease 1.6s forwards}
     .social-float::before,.social-float::after{content:'';width:1px;height:48px;background:linear-gradient(to bottom,transparent,rgba(201,168,76,.2))}
@@ -72,7 +70,7 @@
     .si:hover{border-color:var(--gold);color:var(--gold);transform:scale(1.12)}
     .si svg{width:13px;height:13px;fill:currentColor}
     /* HERO */
-    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:2rem}
+    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:4rem}
     #hero::before{content:'';position:absolute;top:-10%;right:39%;width:1px;height:120%;background:linear-gradient(to bottom,transparent,rgba(201,168,76,.1) 30%,rgba(201,168,76,.1) 70%,transparent);transform:rotate(-8deg);pointer-events:none}
     #hero::after{content:'';position:absolute;top:15%;right:8%;width:520px;height:520px;background:radial-gradient(circle,rgba(201,168,76,.055) 0%,transparent 70%);pointer-events:none}
     .hero-content{position:relative;z-index:2}
@@ -110,8 +108,8 @@
     .c-tl{top:-1px;left:-1px;border-top:2px solid var(--gold);border-left:2px solid var(--gold)}
     .c-br{bottom:-1px;right:-1px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold)}
     /* SECTIONS */
-    section{padding:6rem 2rem;position:relative}
-    .sec-inner{max-width:100%;margin:0}
+    section{padding:6rem 6rem;position:relative}
+    .sec-inner{max-width:1200px;margin:0 auto}
     .sec-label{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;display:flex;align-items:center;gap:.9rem}
     .sec-label::before{content:'';width:28px;height:1px;background:var(--gold)}
     .sec-h{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:300;color:var(--white);line-height:1.08;margin-bottom:2.8rem}
@@ -166,7 +164,7 @@
     .tech-cat-t{font-family:'Space Mono',monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:1.1rem}
     .tech-list{display:flex;flex-wrap:wrap;gap:.45rem}
     .tech-pill{background:rgba(255,255,255,.038);border:1px solid rgba(255,255,255,.07);color:var(--plat);padding:.27rem .7rem;border-radius:2px;font-size:.72rem;letter-spacing:.04em;transition:all .25s;font-family:'Space Mono',monospace;cursor:default}
-    .tech-pill:hover {background:rgba(201,168,76,.1);border-color:var(--gold);color:var(--gold-l)}
+    .tech-pill:hover{background:rgba(201,168,76,.1);border-color:var(--gold);color:var(--gold-l)}
     /* CHANNEL */
     #channel{background:var(--deep)}
     .ch-card{background:linear-gradient(135deg,#0c1017 0%,#10161e 50%,#090d12 100%);border:1px solid var(--border);padding:3.5rem 4rem;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center;position:relative;overflow:hidden}
@@ -188,8 +186,8 @@
     .soc-btn:hover{border-color:var(--gold);color:var(--gold-l)}
     .cont-form{display:flex;flex-direction:column;gap:1.15rem}
     .fg{display:flex;flex-direction:column;gap:.35rem}
-    .fg label {font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-    .fg input,.fg textarea{background:var(--card);border:1px solid var(--border);color:var(--white);padding:.8rem .95rem;font-family:'Outfit',sans-serif;font-size Rama:.88rem;border-radius:2px;outline:none;transition:border-color .3s}
+    .fg label{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+    .fg input,.fg textarea{background:var(--card);border:1px solid var(--border);color:var(--white);padding:.8rem .95rem;font-family:'Outfit',sans-serif;font-size:.88rem;border-radius:2px;outline:none;transition:border-color .3s}
     .fg input:focus,.fg textarea:focus{border-color:var(--gold)}
     .fg textarea{resize:vertical;min-height:115px}
     .fg input::placeholder,.fg textarea::placeholder{color:var(--muted)}
@@ -236,7 +234,8 @@
     <li><a href="#contact" class="nav-cta">Hire Me</a></li>
   </ul>
 </nav>
-
+<div style="width: 100%;">
+  
 <!-- SOCIAL FLOAT -->
 <div class="social-float">
   <a class="si" href="https://github.com/abdaljalil1993" title="GitHub" target="_blank" rel="noopener">
@@ -538,6 +537,7 @@
   </div>
 </section>
 
+</div>
 <!-- FOOTER -->
 <footer>
   <div class="ft-name">Fadi Debow</div>
