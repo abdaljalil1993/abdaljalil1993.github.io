@@ -73,7 +73,7 @@
     .si svg{width:13px;height:13px;fill:currentColor}
 
     /* HERO */
-    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:4rem}
+    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:4rem;overflow: hidden;}
     #hero::before{content:'';position:absolute;top:-10%;right:39%;width:1px;height:120%;background:linear-gradient(to bottom,transparent,rgba(201,168,76,.1) 30%,rgba(201,168,76,.1) 70%,transparent);transform:rotate(-8deg);pointer-events:none}
     #hero::after{content:'';position:absolute;top:15%;right:8%;width:520px;height:520px;background:radial-gradient(circle,rgba(201,168,76,.055) 0%,transparent 70%);pointer-events:none}
     .hero-content{position:relative;z-index:2}
@@ -113,7 +113,7 @@
     .c-br{bottom:-1px;right:-1px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold)}
 
     /* SECTIONS */
-    section{padding:6rem 6rem;position:relative}
+    section{padding:6rem 6rem;position:relativeoverflow-x: hidden;}
     .sec-inner{    width:100%;
     max-width:1600px; /* أو none */
     margin:0 auto;}
