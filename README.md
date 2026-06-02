@@ -48,9 +48,9 @@
     }
     html{scroll-behavior:smooth}
     body{background:var(--black);color:var(--text);font-family:'Outfit',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
-    body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.04'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;opacity:.5}
-    ::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--black)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:2px}
-    ::selection{background:var(--gold);color:var(--black)}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;opacity:.5}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background:var(--black)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:2px}
+  ::selection{background:var(--gold);color:var(--black)}
 
     /* NAV */
     nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 3.5rem;display:flex;justify-content:space-between;align-items:center;background:rgba(7,8,10,.82);backdrop-filter:blur(22px);border-bottom:1px solid var(--border);transition:padding .35s}
@@ -114,7 +114,9 @@
 
     /* SECTIONS */
     section{padding:6rem 6rem;position:relative}
-    .sec-inner{max-width:1200px;margin:0 auto}
+    .sec-inner{width:100%;
+    max-width:1600px;
+    margin:0 auto;}
     .sec-label{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;display:flex;align-items:center;gap:.9rem}
     .sec-label::before{content:'';width:28px;height:1px;background:var(--gold)}
     .sec-h{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:300;color:var(--white);line-height:1.08;margin-bottom:2.8rem}
@@ -272,7 +274,6 @@
     <path d="M23.5 6.2a3.01 3.01 0 0 0-2.12-2.13C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.57A3.01 3.01 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3.01 3.01 0 0 0 2.12 2.13C4.5 20.5 12 20.5 12 20.5s7.5 0 9.38-.57a3.01 3.01 0 0 0 2.12-2.13A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/>
   </svg>
 </a>
-
 </div>
 
 <!-- HERO -->
@@ -537,7 +538,7 @@
         <div class="soc-btns">
           <a class="soc-btn" href="https://github.com/abdaljalil1993" target="_blank" rel="noopener">GitHub</a>
           <a class="soc-btn" href="https://linkedin.com/in/fadi-debow" target="_blank" rel="noopener">LinkedIn</a>
-           <a class="soc-btn" href="https://www.facebook.com/fadi.debow.376" target="_blank" rel="noopener">FaceBook</a>
+          <a class="soc-btn" href="https://www.facebook.com/fadi.debow.376" target="_blank" rel="noopener">FaceBook</a>
           <a class="soc-btn" href="https://www.youtube.com/channel/UCgN7zacaUGWQJRwBS1xS_5w/videos" target="_blank" rel="noopener">YouTube</a>
         </div>
       </div>
