@@ -260,6 +260,19 @@
   <a class="si" href="mailto:abdaljalil.debow@gmail.com" title="Email">
     <svg viewBox="0 0 24 24"><path d="M20 4H4C2.9 4 2 4.9 2 6v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
   </a>
+
+  <a class="si" href="https://www.facebook.com/fadi.debow.376" title="Facebook" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07c0 6.03 4.39 11.03 10.13 11.93v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.27h3.32l-.53 3.49h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/>
+  </svg>
+</a>
+
+<a class="si" href="https://www.youtube.com/channel/UCgN7zacaUGWQJRwBS1xS_5w/videos" title="YouTube" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M23.5 6.2a3.01 3.01 0 0 0-2.12-2.13C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.57A3.01 3.01 0 0 0 .5 6.2 31.3 31.3 0 0 0 0 12a31.3 31.3 0 0 0 .5 5.8 3.01 3.01 0 0 0 2.12 2.13C4.5 20.5 12 20.5 12 20.5s7.5 0 9.38-.57a3.01 3.01 0 0 0 2.12-2.13A31.3 31.3 0 0 0 24 12a31.3 31.3 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/>
+  </svg>
+</a>
+
 </div>
 
 <!-- HERO -->
