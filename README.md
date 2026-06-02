@@ -524,6 +524,8 @@
         <div class="soc-btns">
           <a class="soc-btn" href="https://github.com/abdaljalil1993" target="_blank" rel="noopener">GitHub</a>
           <a class="soc-btn" href="https://linkedin.com/in/fadi-debow" target="_blank" rel="noopener">LinkedIn</a>
+           <a class="soc-btn" href="https://www.facebook.com/fadi.debow.376" target="_blank" rel="noopener">FaceBook</a>
+          <a class="soc-btn" href="https://www.youtube.com/channel/UCgN7zacaUGWQJRwBS1xS_5w/videos" target="_blank" rel="noopener">YouTube</a>
         </div>
       </div>
       <form class="cont-form" onsubmit="hf(event)">
