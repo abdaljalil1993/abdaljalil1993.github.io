@@ -111,7 +111,7 @@
     .c-br{bottom:-1px;right:-1px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold)}
     /* SECTIONS */
     section{padding:6rem 6rem;position:relative}
-    .sec-inner{max-width:1200px;margin:0 auto}
+    .sec-inner{max-width:100%;margin:0 auto}
     .sec-label{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;display:flex;align-items:center;gap:.9rem}
     .sec-label::before{content:'';width:28px;height:1px;background:var(--gold)}
     .sec-h{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:300;color:var(--white);line-height:1.08;margin-bottom:2.8rem}
