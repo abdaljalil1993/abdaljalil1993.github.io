@@ -72,7 +72,7 @@
     .si:hover{border-color:var(--gold);color:var(--gold);transform:scale(1.12)}
     .si svg{width:13px;height:13px;fill:currentColor}
     /* HERO */
-    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:4rem}
+    #hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:8rem 6rem 4rem;position:relative;overflow:hidden;gap:2rem}
     #hero::before{content:'';position:absolute;top:-10%;right:39%;width:1px;height:120%;background:linear-gradient(to bottom,transparent,rgba(201,168,76,.1) 30%,rgba(201,168,76,.1) 70%,transparent);transform:rotate(-8deg);pointer-events:none}
     #hero::after{content:'';position:absolute;top:15%;right:8%;width:520px;height:520px;background:radial-gradient(circle,rgba(201,168,76,.055) 0%,transparent 70%);pointer-events:none}
     .hero-content{position:relative;z-index:2}
@@ -110,8 +110,8 @@
     .c-tl{top:-1px;left:-1px;border-top:2px solid var(--gold);border-left:2px solid var(--gold)}
     .c-br{bottom:-1px;right:-1px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold)}
     /* SECTIONS */
-    section{padding:6rem 6rem;position:relative}
-    .sec-inner{max-width:100%;margin:0 auto}
+    section{padding:6rem 2rem;position:relative}
+    .sec-inner{max-width:100%;margin:0}
     .sec-label{font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem;display:flex;align-items:center;gap:.9rem}
     .sec-label::before{content:'';width:28px;height:1px;background:var(--gold)}
     .sec-h{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.4rem);font-weight:300;color:var(--white);line-height:1.08;margin-bottom:2.8rem}
